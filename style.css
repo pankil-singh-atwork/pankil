@@ -28,3 +28,36 @@ body {
     text-decoration: none;
     color: white;
 }
+
+/* about me  */
+.about-me {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 2px solid red;
+    height: 50vh;
+}
+.about-me>img {
+    width: 6.5rem;
+    height: 16rem;
+}
+.p1>button {
+    width:15rem;
+    height: 4rem;
+    padding: 4px;
+    text-align: center;
+    border: none;
+    outline: 6px solid black;
+    font-size: 1.5rem;
+    color: white;
+    background-color: rgb(246, 109, 109);
+}
+.p1>button:hover {
+    cursor: pointer;
+    color: red;
+    background-color: #FABD44;
+}
+
+.p1>span {
+    color: yellowgreen;
+}
