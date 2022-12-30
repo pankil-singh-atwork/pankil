@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    padding:0 2rem;
+    margin: auto;
+}
+.navbar>span {
+    color: red;
+}
+.navbar>ul {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    list-style-type: none;
+}
+
+.navbar>ul>li {
+    padding: 5px;
+}
+.navbar>ul>li>a {
+    text-decoration: none;
+    color: white;
+}
+
+#blogs h2{
+    display: inline-block;
+    background-color: black;
+    color: white;
+}
+#blogs p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
