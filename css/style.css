@@ -4,6 +4,7 @@ body {
     background-color: grey;
 }
 .navbar {
+    font-family: 'Montserrat', sans-serif;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -12,6 +13,7 @@ body {
     margin: auto;
 }
 .navbar>span {
+    font-weight: 1000;
     color: red;
 }
 .navbar>ul {
@@ -35,7 +37,6 @@ body {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    border: 2px solid red;
     height: 50vh;
 }
 .about-me>img {
@@ -43,6 +44,19 @@ body {
     width: 6.5rem;
     height: 16rem;
 }
+.p1>h1 {
+  color: #333;
+  font-family: tahoma;
+  font-size: 1.5rem;
+  font-weight: 100;
+  line-height: 1.5;
+  text-transform: uppercase;
+  white-space: nowrap;
+  overflow: hidden;
+  position: relative;
+  width: 7rem;
+}
+
 .p1>button {
 
     width:15rem;
@@ -61,6 +75,7 @@ body {
     background-color: #FABD44;
 }
 
+.p1
 .p1>span {
     color: yellowgreen;
 }
