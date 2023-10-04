@@ -3,62 +3,52 @@
   margin: 0;
   padding: 0;
 }
+
 body {
   background-color: rgb(255, 255, 255);
-}
-.navbar {
+  color: black;
   font-family: "Montserrat", sans-serif;
+}
+
+.navbar {
+  font-weight: bolder;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
-  background-color: rgb(255, 255, 255);
-  /* border: 2px solid black; */
-  padding: 0 2rem;
+  padding: 0 6rem;
+  height: 5rem;
 }
-.navbar > span {
-  font-weight: 1000;
-  border: 2px solid black;
-  background-color: rgb(197, 28, 28);
-  color: rgb(255, 255, 255);
-  margin-right: 2rem;
-  border-radius: 4rem;
-  width: 8rem;
-  text-align: center;
-  cursor: pointer;
-}
+
 .navbar > ul {
   display: flex;
-  justify-content: end;
-  align-items: center;
   list-style-type: none;
 }
 
 .navbar > ul > li {
-  padding: 5px;
-}
-.navbar > ul > li > a {
-  text-decoration: none;
-  font-weight: bolder;
-  color: rgb(0, 0, 0);
+  padding: 1rem;
 }
 
 /* about me  */
 .about-me {
-  /* position: relative; */
   display: flex;
-  justify-content: space-evenly;
+  flex-direction: row;
   align-items: center;
-  height: 50vh;
+  justify-content: space-around;
+  margin-top: 4rem;
+  /* background-color: red; */
 }
-.myImage > img {
-  bottom: 10px;
-  width: 6.5rem;
-  height: 16rem;
+.p1 {
+  width: 20rem;
+  height: 20rem;
+  margin-right: 10rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
 }
 .p1 > h1 {
   color: #333;
   font-family: tahoma;
-  font-size: 1.5rem;
+  font-size: 2rem;
   font-weight: 100;
   line-height: 1.5;
   text-transform: uppercase;
@@ -68,17 +58,11 @@ body {
   width: 30rem;
 }
 .message {
+  font-size: 2rem;
   display: flex;
+  flex-direction: column;
 }
-#word-1 {
-  color: #da2626;
-}
-#word-2 {
-  color: rgba(24, 9, 9, 0.943);
-}
-#word-3 {
-  color: rgb(12, 12, 12);
-}
+
 .p1 > button {
   width: 15rem;
   height: 4rem;
@@ -97,7 +81,17 @@ body {
   background-color: #ffffff;
 }
 .p1 > span {
-  color: yellowgreen;
+  font-weight: bold;
+}
+.myImage {
+  position: relative;
+  right: 8rem;
+}
+.myImage img {
+  width: 400px;
+  height: 400px;
+  background-color: #cf6767;
+  border-radius: 100%;
 }
 .project-container {
   display: flex;
@@ -129,3 +123,8 @@ background-color: gray;
 color: white;  
 text-align: center;  
 }*/
+
+a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
