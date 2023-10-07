@@ -1,0 +1,16 @@
+.navbar {
+  font-weight: bolder;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 6rem;
+  height: 5rem;
+}
+.navbar > ul {
+  display: flex;
+  list-style-type: none;
+}
+
+.navbar > ul > li {
+  padding: 1rem;
+}
